@@ -11,6 +11,16 @@ app.use(express.json()); //allows us to accept JSON data in  req.body
 
 // app.use("/api/products", productRoutes);
 
+app.get("/api/products", async (req, res) => {
+    try {
+        const products = await Product.find({});
+        res.status(200).json({ success: true, data: products });
+    } catch (error) {
+        console.error("Error in Get products:", error.message);
+        res.status(500).json({ success: false, message: "Internal server error" });
+    }
+})
+
 app.post("/api/products", async (req, res) => {
     const product = req.body;
 
@@ -41,6 +51,8 @@ app.delete("/api/products/:id", async (req, res) => {
         res.status(404).json({ success: false, message: "Product not found" });
     }
 })
+
+
 
 // console.log(process.env.MONGO_URI);
 
