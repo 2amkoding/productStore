@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c629b2da-096b-4154-95ea-d276a2c56880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/product.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/product.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Node.js.product.route.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -67,7 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1728926719900</updated>
       <workItem from="1728926721147" duration="7613000" />
-      <workItem from="1728937514705" duration="4914000" />
+      <workItem from="1728937514705" duration="8417000" />
+      <workItem from="1730382143199" duration="26000" />
+      <workItem from="1730382177494" duration="1078000" />
     </task>
     <servers />
   </component>
