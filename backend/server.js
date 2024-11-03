@@ -7,7 +7,7 @@ import productRoutes from './routes/product.route.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT
 
 app.use(express.json()); //allows us to accept JSON data in  req.body
 
