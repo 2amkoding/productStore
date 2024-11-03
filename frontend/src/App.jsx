@@ -3,11 +3,13 @@ import {Route, Routes} from "react-router-dom";
 import CreatePage from "./pages/CreatePage";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
+import {useProductStore} from "./store/product.js";
 
 
 
 function App() {
-    console.log("App rendered");
+
+
 
   return (
 
